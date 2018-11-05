@@ -1,0 +1,60 @@
+<view id="body">
+    <view class="top">
+        <view class="city">
+            <view>北京市</view>
+            <image src='../../images/img/pull-down.png' mode="widthFix"></image>
+        </view>
+        <view class="search">
+            <view class="button">进行搜索4S店</view>
+        </view>
+    </view>
+    <view class="userCar both">
+        <view class="top">
+            <view class="numOne">京N12345</view>
+            <view class="numTwo">JZY268OPZYYZ345682</view>
+        </view>
+        <view class="center">
+            斯柯达　速派　2018款　1.4TSL　双离合　黑色
+        </view>
+        <view class="footer">
+            点击进行查看更多车辆信息 》
+        </view>
+    </view>
+    <view class="function">
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>保养</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>维修</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>钣喷</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>洗护</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>免费洗车</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>更换电瓶</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>紧急救援</view>
+        </view>
+        <view class='fun'>
+            <image src="../../images/img/4545_03.png" mode="widthFix"></image>
+            <view>精品加装</view>
+        </view>
+    </view>
+    <view class="manual">
+            <image src="../../images/img/true_03.png" mode="widthFix"></image>
+    </view>
+</view>

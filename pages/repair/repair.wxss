@@ -1,0 +1,58 @@
+page {
+    background:#F2F2F2;
+}
+.nav{
+    font-size:30rpx;
+    text-align: center;
+    height:52rpx;
+    background:#fff;
+}
+.nav view{
+    width:25%;
+    height:50rpx;
+    float:left;
+}
+.optFor{
+    border-bottom: 1px solid #EC1F1F;
+    color:#EC1F1F;
+}
+
+.view{
+    width:94%;
+    margin:0 auto;
+    background:#fff;
+    margin-top:20rpx;
+    border-radius:10rpx;
+    height:352rpx;
+}
+.view .top{
+    font-size: 30rpx;
+    height: 72rpx;
+    border-bottom: 1px solid #F2F2F2;
+}
+.view .top view{
+    padding:2.5% 2.5% 0;
+}
+.view .center{
+    padding-top:30rpx;
+    border-bottom: 1px solid #F2F2F2;
+    height:160rpx;
+}
+.view .center .name{
+    height:60rpx;
+    padding:2.5% 2.5% 0;
+}
+.view .center .time{
+    padding:2.5% 2.5% 0;
+    font-size: 24rpx;
+}
+.view .center .time image{
+    width:20rpx;
+}
+.view .footer view{
+    border:1px solid #D7D7D7;
+    font-size:32rpx;
+    margin:15rpx 20rpx;
+    padding:6rpx 25rpx;
+    border-radius:50rpx;
+}

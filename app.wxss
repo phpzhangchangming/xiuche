@@ -1,0 +1,17 @@
+#body{
+    margin:0 25rpx;
+}
+.both{
+    clear: both;
+}
+.hr{
+    border-top:2px solid #F4F4F4;
+    width:120%;
+    margin-left:-10%;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}

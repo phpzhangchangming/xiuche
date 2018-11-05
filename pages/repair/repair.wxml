@@ -1,0 +1,30 @@
+<view class='body'>
+    <view class='nav'>
+        <view class='optFor'>全部</view>
+        <view>待付款</view>
+        <view>服务中</view>
+        <view>待评价</view>
+    </view>
+    <view class='views'>
+        <view class='view'>
+            <view class='top'>
+                <view class='left'>北京jeep吉普4S店></view>
+                <view class='right'>已完成</view>
+            </view>
+            <view class='center'>
+                <view class='name'>
+                    <view class='left'>保养订单</view>
+                    <view class='right'>￥1480</view>
+                </view>
+                <view class='time'>
+                    <image src='../../images/img/time.png' mode="widthFix"></image>
+                    2018-10-23(周二) 8:30
+                </view>
+            </view>
+            <view class='footer'>
+                <view class='right'>评价</view>
+                <view class='right'>删除订单</view>
+            </view>
+        </view>
+    </view>
+</view>
