@@ -1,0 +1,54 @@
+page{
+    background:#F4F4F8;
+    font-size:28rpx;
+}
+form input{
+    background: #fff;
+    padding: 24rpx;
+    border-radius: 10rpx;
+    height: 56rpx;
+}
+form button{
+    background: #FA5A4B;
+    color:#fff;
+    font-weight: 600;
+    font-size:30rpx;
+}
+form .phone{
+    margin:30rpx 0;
+}
+.verify{
+    width:54%;
+}
+form .getVerify{
+    width:36%;
+    font-size: 28rpx;
+    height: 104rpx;
+    line-height: 104rpx;
+}
+form view.getVerify{
+    height: 102rpx;
+    text-align: center;
+    border-radius:10rpx;
+    background: #fff;
+    color: #808080;
+}
+form .both{
+    height:50rpx;
+}
+form .sub{
+    height: 86rpx;
+    line-height: 86rpx;
+}
+.bindPhone{
+    width:70%;
+    margin:12%;
+    position:absolute;
+    bottom: 130rpx;
+    font-weight:600;
+    background:#fff;
+    border-radius:100rpx;
+    border:1px solid #01D10C;
+    color:#01D10C;
+    font-size:32rpx;
+}

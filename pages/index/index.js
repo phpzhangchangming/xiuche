@@ -4,5 +4,8 @@ Page({
     },
     onLoad: function () {
 
+    },
+    showLogin:function(){
+        console.log(111);
     }
 });

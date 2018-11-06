@@ -1,0 +1,7 @@
+<view id='body'>
+    <view class='list' bindtap='selectColor'>魅力红</view>
+    <view class='list'>魅力黑</view>
+    <view class='list'>魅力白</view>
+    <view class='list'>魅力粉</view>
+    <view class='list'>魅力蓝</view>
+</view>

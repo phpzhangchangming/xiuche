@@ -1,0 +1,60 @@
+<view id='overlay' bindtap='showOld' hidden='{{isShowOverlay}}'></view>
+<view id='body'>
+    <form>
+        <view class='list'>
+            <view class='hint left'>车牌号</view>
+            <view class='input right'>
+                <view class='right enter'></view>
+                <view bindtap='chooseArea'>
+                    <view class='left'>{{carName}}</view>
+                    <view class='img left'></view>
+                </view>
+                <input class='num left' type='text' name="num" placeholder="录入车牌号" />
+            </view>
+        </view>
+        <view class='list'>
+            <view class='hint left'>VIN码</view>
+            <view class='input right'>
+                <view class='right enter'></view>
+                <input class='num left' type='text' name="num" placeholder="录入车辆VIN码" />
+            </view>
+        </view>
+        <view class='list'>
+            <view class='hint left'>车型</view>
+            <view class='input right'>
+                <view class='right enter'></view>
+                <navigator url='/pages/switchCar/switchCar' open-type="navigateTo" class='chooseType'>请选择您的爱车车型</navigator>
+            </view>
+        </view>
+        <view class='list'>
+            <view class='hint left'>购车时间</view>
+            <view class='input right'>
+                <picker mode="date" value="{{date}}" fields="month" bindchange="bindDateChange">
+                    <input class='num left' type='text' name="num" placeholder="请选择您的购车时间" value='{{date}}' />
+                </picker>
+            </view>
+        </view>
+        <view class='list'>
+            <view class='hint left'>行驶里程</view>
+            <view class='input right'>
+                <input class='num left kilometre' type='digit' name="num" placeholder="公里数" />km
+                <image class='' src='../../images/img/pull-down.png' mode="widthFix"></image>
+            </view>
+        </view>
+        <view class='list'>
+            <view class='hint left'>新能源车</view>
+            <view class='input right'>
+                <input class='num left' type='text' name="num" placeholder="请选择是否" />
+                <view class='num left'>请选择是否</view>
+            </view>
+        </view>
+        <button class='sub' form-type="submit">保存爱车</button>
+    </form>
+</view>
+<view id='abbreviation' animation="{{animationAbbreviation}}" hidden='{{isShowAbbreviation}}' style='height:{{abbreviationHeihgt}}rpx;'>
+    <view wx:for="{{carNameList}}" bindtap='bindCarName' data-index='{{index}}'>{{item}}</view>
+</view>
+<view id='isNewCar' hidden='true'>
+    <view>是</view>
+    <view>否</view>
+</view>

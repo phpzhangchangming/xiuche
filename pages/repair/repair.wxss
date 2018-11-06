@@ -7,14 +7,14 @@ page {
     height:52rpx;
     background:#fff;
 }
+.optFor{
+    border-bottom: 1px solid #EC1F1F;
+    color:#EC1F1F;
+}
 .nav view{
     width:25%;
     height:50rpx;
     float:left;
-}
-.optFor{
-    border-bottom: 1px solid #EC1F1F;
-    color:#EC1F1F;
 }
 
 .view{
@@ -23,36 +23,55 @@ page {
     background:#fff;
     margin-top:20rpx;
     border-radius:10rpx;
-    height:352rpx;
+    height:310rpx;
 }
 .view .top{
-    font-size: 30rpx;
-    height: 72rpx;
+    font-size: 28rpx;
+    height: 62rpx;
     border-bottom: 1px solid #F2F2F2;
 }
 .view .top view{
-    padding:2.5% 2.5% 0;
+    padding:14rpx 2.5% 0;
+}
+.view .top .right{
+    color: #F47D30;
 }
 .view .center{
-    padding-top:30rpx;
+    padding-top:8rpx;
     border-bottom: 1px solid #F2F2F2;
-    height:160rpx;
+    height:144rpx;
+    font-size:36rpx;
+}
+.view .center .remind{
+    color:#FF0000;
+    font-size:26rpx;
+    text-align:center;
+    margin-top:4rpx;
+    height:34rpx;
 }
 .view .center .name{
     height:60rpx;
-    padding:2.5% 2.5% 0;
+    padding:0 2.5%;
+    position:relative;
+    top:-12rpx;
 }
 .view .center .time{
-    padding:2.5% 2.5% 0;
+    padding:0 2.5%;
     font-size: 24rpx;
+    color:#BCBCBC;
+    margin-top:-8rpx;
 }
 .view .center .time image{
     width:20rpx;
 }
 .view .footer view{
     border:1px solid #D7D7D7;
-    font-size:32rpx;
-    margin:15rpx 20rpx;
-    padding:6rpx 25rpx;
+    font-size:28rpx;
+    margin:16rpx 14rpx;
+    padding:9rpx 28rpx;
     border-radius:50rpx;
+    color:#949494;
+}
+.view .footer .goPlay{
+    color: #F47D30;
 }

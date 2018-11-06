@@ -1,0 +1,5 @@
+.list{
+    font-size: 30rpx;
+    padding:24rpx;
+    border-bottom: 2rpx solid #F6F6F6;
+}

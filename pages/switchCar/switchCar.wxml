@@ -1,0 +1,48 @@
+<view class="searchLetter touchClass">
+    <view class="thishotText" bindtap="hotCar">
+        <view style="margin-top:0;">#</view>
+    </view>
+    <view wx:for="{{searchLetter}}" style="color:#8A8A88;font-size:26rpx;" wx:key="index" data-letter="{{item.name}}" catchtouchend="clickLetter" >{{item.name}}</view>
+</view>
+<block wx:if="{{isShowLetter}}">
+  <view class="showSlectedLetter">
+    {{showLetter}}
+  </view>
+</block>
+<scroll-view scroll-y="true" style="height:{{winHeight}}px" bindscroll="bindScroll" scroll-into-view="{{scrollTopId}}" scroll-top="{{scrollTop}}">
+  <view>
+    <text class="hotCar hotCar-common">热门品牌</text>
+    <view class="weui-grids">
+      <block wx:for-items="{{hotCarList}}" wx:key="{{index}}">
+        <view class="weui-grid" data-CarCode="{{item.CarCode}}" data-Car="{{item.Car}}" bindtap="bindCar" >
+          <image class='weui-grid_image' src='../../images/img/4545_03.png' mode="widthFix"></image>
+          <view class="weui-grid__label">{{item.Car}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="selection" wx:for="{{CarList}}" wx:key="{{item.initial}}">
+    <view class="item_letter"  id="{{item.initial}}">{{item.initial}}</view>
+    <view class="item_Car"  wx:for="{{item.CarInfo}}" wx:for-item="ct" wx:key="{{ct.id}}" data-CarCode="{{ct.code}}" data-Car="{{ct.Car}}" bindtap="bindCar">
+      <image class='weui-grid_image' src='../../images/img/4545_03.png'></image>
+      {{ct.Car}}
+    </view>
+  </view>
+</scroll-view>
+<view id='rightShow' style="height:{{winHeight}}px;right:{{showRightWidth}}%">
+    <view class='list'>
+        <view class='headline'>国产奥迪</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+    </view>
+    <view class='list'>
+        <view class='headline'>国产奥迪</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+    </view>
+</view>
+<view id='overlay' bindtap='showOld' hidden='{{isShowOverlay}}'></view>

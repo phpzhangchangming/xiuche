@@ -1,1 +1,36 @@
-/* pages/user/user.wxss */
+.userInfo{
+    height:140rpx;
+    border-radius:10rpx;
+    margin-top:18rpx;
+    box-shadow:0 0 16rpx rgba(114, 114, 114, 0.6);
+    padding:56rpx 0;
+}
+.userInfo image{
+    width:140rpx;
+    margin:0 42rpx 0 32rpx;
+}
+.userInfo .left{
+    font-size:28rpx;
+}
+.userInfo .username{
+    padding:22rpx 0 10rpx;
+}
+
+.vlist{
+    margin-top:20rpx;
+    border-top:1px solid #F2F2F2;
+}
+.list{
+    border-bottom:1px solid #F2F2F2;
+    height:42rpx;
+    font-size: 28rpx;
+    padding:26rpx 14rpx;
+}
+.list image{
+   width:34rpx;
+   margin-right:20rpx;
+   margin-top:2rpx;
+}
+.list .hint{
+    color:#BCBCBC;
+}

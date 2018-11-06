@@ -1,0 +1,101 @@
+page{
+    background: #F5F5F7;
+}
+.list:first-child{
+    margin-top:20rpx;
+    border-radius:10rpx;
+}
+.list{
+    background: #fff;
+    height:50rpx;
+    line-height: 50rpx;
+    padding:38rpx 30rpx 30rpx;
+    border-bottom:1px solid #F5F5F7;
+    font-size:30rpx;
+}
+.list .hint{
+    font-weight:600;
+    width:24%;
+}
+.list .input{
+    width:70%;
+}
+.list .input .img {
+    width: 0;
+    height: 0;
+    border-left: 10rpx solid transparent;
+    border-right: 10rpx solid transparent;
+    border-top: 18rpx solid #FA5A4C;
+    margin:18rpx 18rpx 0 10rpx;
+}
+.list .input .num{
+    float:left;
+    width:60%;
+}
+.enter{
+    width: 20rpx;
+    height: 20rpx;
+    border-top: 4rpx solid #5F6A7B;
+    border-right: 4rpx solid #5F6A7B;
+    border-radius:2rpx;
+    transform: rotate(45deg);
+    margin-top: 14rpx;
+}
+.chooseType{
+    color:#808080;
+}
+.list image{
+    width:30rpx;
+    position:relative;
+    top:6rpx;
+    margin-top:8rpx;
+}
+.list .input .kilometre{
+    width:128rpx;
+}
+.sub{
+    background:#FA5A4C;
+    color:#fff;
+    margin-top:40rpx;
+    width:94%;
+    font-size: 34rpx;
+    letter-spacing:4rpx;
+}
+#abbreviation{
+    transition: height 0.5s ease-in-out;
+    text-overflow: ellipsis;
+    position: absolute;
+    bottom:0;
+    padding:1%;
+    background: #EBEBEB;
+    box-shadow: rgb(114, 114, 114) 0 0 10rpx;
+    margin-top:2%;
+    font-size: 32rpx;
+    z-index: 11;
+}
+#abbreviation view{
+    background: #fff;
+    border-radius:10rpx;
+    width:10%;
+    height: 86rpx;
+    line-height: 82rpx;
+    margin:1.2% 0 1.5% 2.25%;
+    float:left;
+    text-align: center;
+}
+#isNewCar{
+    width:100%;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 36rpx;
+}
+#isNewCar view:first-child{
+    border-bottom: 4rpx solid #D7D7D7;
+}
+#isNewCar view{
+    background: #BCBCBC;
+    color:#fff;
+    height:100rpx;
+    line-height: 100rpx;
+}

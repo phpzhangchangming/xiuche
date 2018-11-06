@@ -1,10 +1,15 @@
 {
   "pages":[
-    "pages/repair/repair",
+    "pages/addCar/addCar",
+    "pages/selectColor/selectColor",
+    "pages/selectYear/selectYear",
+    "pages/switchCar/switchCar",
+    "pages/login/login",
     "pages/index/index",
-    "pages/stores/stores",
     "pages/user/user",
-    "pages/logs/logs"
+    "pages/repair/repair",
+    "pages/stores/stores",
+    "pages/demo/demo"
   ],
   "window":{
     "backgroundTextStyle":"light",

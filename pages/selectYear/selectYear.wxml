@@ -1,0 +1,18 @@
+<view class='body'>
+    <view class='lists'>
+        <view class='view'>2018款</view>
+        <view class='list'>
+            <view bindtap='selectYear'>2.0TFSI 手自一体 40TFSI 典藏版技术型</view>
+        </view>
+    </view>
+    <view class='lists'>
+        <view class='view'>2018款</view>
+        <view class='list'>
+        </view>
+    </view>
+    <view class='lists'>
+        <view class='view'>2018款</view>
+        <view class='list'>
+        </view>
+    </view>
+</view>
