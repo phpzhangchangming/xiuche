@@ -1,6 +1,6 @@
 <view id='overlay' bindtap='showOld' hidden='{{isShowOverlay}}'></view>
 <view id='body'>
-    <form>
+    <form bindsubmit='formSubmit'>
         <view class='list'>
             <view class='hint left'>车牌号</view>
             <view class='input right'>
@@ -30,7 +30,7 @@
             <view class='hint left'>购车时间</view>
             <view class='input right'>
                 <picker mode="date" value="{{date}}" fields="month" bindchange="bindDateChange">
-                    <input class='num left' type='text' name="num" placeholder="请选择您的购车时间" value='{{date}}' />
+                    <input class='num left' type='text' name="num" placeholder="请选择您的购车时间" value='{{date}}' style='width:80%' />
                 </picker>
             </view>
         </view>
@@ -44,8 +44,7 @@
         <view class='list'>
             <view class='hint left'>新能源车</view>
             <view class='input right'>
-                <input class='num left' type='text' name="num" placeholder="请选择是否" />
-                <view class='num left'>请选择是否</view>
+                <view class='left' bindtap='showNewEnergy'>{{newCarName}}</view>
             </view>
         </view>
         <button class='sub' form-type="submit">保存爱车</button>
@@ -54,7 +53,7 @@
 <view id='abbreviation' animation="{{animationAbbreviation}}" hidden='{{isShowAbbreviation}}' style='height:{{abbreviationHeihgt}}rpx;'>
     <view wx:for="{{carNameList}}" bindtap='bindCarName' data-index='{{index}}'>{{item}}</view>
 </view>
-<view id='isNewCar' hidden='true'>
-    <view>是</view>
-    <view>否</view>
+<view id='isNewCar' hidden='{{isShowNewCar}}' style='height:{{newEnergyHeihgt}}rpx'>
+    <view bindtap='clooseNewEnergy' data-energy='1'>是</view>
+    <view bindtap='clooseNewEnergy' data-energy='0'>否</view>
 </view>

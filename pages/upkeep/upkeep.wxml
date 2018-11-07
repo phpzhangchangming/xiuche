@@ -1,0 +1,53 @@
+<view id='body'>
+	<view class='carMessage'>
+		<view class='top'>
+			<view class='left'>京N12345</view>
+			<view class='left'>JZY268OPZYYZ345682</view>
+		</view>
+		<view class='center'>
+			斯柯达　速派　2018款　1.4TSL　双离合　黑色
+		</view>
+		<view class='footer'>
+			<view class='left'>行驶里程：5000km</view>
+			<view class='left'>购车时间：2018-10</view>
+		</view>
+	</view>
+	<view class='nav'>
+		<view bindtap='selectNav' class='left {{navChooseGj}}'>国际大牌陪配件</view>
+		<view bindtap='selectNav' class='right {{navChooseYc}}'>原厂配件</view>
+	</view>
+	<scroll-view class='lists' scroll-y scroll-top='0' style='height:{{scrollViewHeight}}px'>
+		<view class='list' wx:for="{{dataList}}">
+			<view class='image {{item.imageRed}}' bindtap='bindImageRed' data-index="{{index}}">
+				<view class='v'></view>
+			</view>
+			<view class='left'>
+				<view class='parts'>机111油4L</view>
+				<view class='changeParts'>更换机油></view>
+				<view class='explain'>原厂大众5W-40 SM级半合成4L*1 SM级半合成4L</view>
+			</view>
+			<view class='right'>
+				<view class='new'>￥342</view>
+				<view class='old'>￥438</view>
+			</view>
+		</view>
+		<view class='list serviceMoney'>
+			<view class='right'>￥342</view>
+			<view class='right'>￥438</view>
+			<view class='right'>服务费：</view>
+		</view>
+		<view class='list serviceVip'>
+			<view class='left'>VIP4</view>
+			<button bindtap='bindMoreDiscounts'>更多优惠</button>
+		</view>
+	</scroll-view>
+	<view class='shopping'>
+		<image class='shoppingImg' src='../../images/img/4545_03.png' mode="widthFix"></image>
+		<view class='allMoney'>￥1613</view>
+		<view class='center'>
+			<view class='oldAllMoney'>￥2106</view>
+			<view class='saveMoney'>省493</view>
+		</view>
+		<button bindtap='bind4S'>选择4S店</button>
+	</view>
+</view>

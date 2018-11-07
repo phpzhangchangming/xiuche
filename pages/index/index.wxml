@@ -8,7 +8,7 @@
             <view class="button">进行搜索4S店</view>
         </view>
     </view>
-    <view hidden='true' class="userCar">
+    <navigator hidden='true' class="userCar"  url='/pages/addCar/addCar'>
         <view class="top">
             <view class="numOne">京N12345</view>
             <view class="numTwo">JZY268OPZYYZ345682</view>
@@ -19,19 +19,19 @@
         <view class="footer">
             点击进行查看更多车辆信息 》
         </view>
-    </view>
-    <view class="userCar" bindtap='showLogin'>
+    </navigator>
+    <navigator class="userCar" url='/pages/garage/garage'>
         <image class='left' src="../../images/img/4545_03.png" mode="widthFix"></image>
         <view class='left'>
             <view class='top'>点击添加车辆信息</view>
             <view class='footer'>针对车辆信息推荐保养、维修更精准</view>
         </view>
-    </view>
+    </navigator>
     <view class="function">
-        <view class='fun'>
+        <navigator class='fun' url='/pages/upkeep/upkeep'>
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>保养</view>
-        </view>
+        </navigator>
         <view class='fun'>
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>维修</view>

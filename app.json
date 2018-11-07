@@ -1,11 +1,13 @@
 {
   "pages":[
+	"pages/upkeep/upkeep",
+	"pages/index/index",
+	"pages/garage/garage",
     "pages/addCar/addCar",
     "pages/selectColor/selectColor",
     "pages/selectYear/selectYear",
     "pages/switchCar/switchCar",
     "pages/login/login",
-    "pages/index/index",
     "pages/user/user",
     "pages/repair/repair",
     "pages/stores/stores",

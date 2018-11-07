@@ -30,7 +30,7 @@ page{
 }
 .list .input .num{
     float:left;
-    width:60%;
+    width:76%;
 }
 .enter{
     width: 20rpx;
@@ -52,6 +52,9 @@ page{
 }
 .list .input .kilometre{
     width:128rpx;
+}
+.list .input view.left{
+	color:#808080;
 }
 .sub{
     background:#FA5A4C;
@@ -84,11 +87,14 @@ page{
     text-align: center;
 }
 #isNewCar{
+	transition: height 0.5s ease-in-out;
     width:100%;
+	overflow: hidden;
     position:absolute;
     bottom: 0;
     text-align: center;
     font-size: 36rpx;
+	z-index:11;
 }
 #isNewCar view:first-child{
     border-bottom: 4rpx solid #D7D7D7;

@@ -1,0 +1,91 @@
+<view id='body'>
+	<view class='list'>
+		<view class='top'>
+			<view class='left'>京N12345</view>
+			<view class='left'>JZY268OPZYYZ345682</view>
+		</view>
+		<view class='center'>
+			斯柯达　速派　2018款　1.4TSL　双离合　黑色
+		</view>
+		<view class='footer'>
+			<view class='left'>行驶里程：5000km</view>
+			<view class='left'>购车时间：2018-10</view>
+		</view>
+		<view class='operation'>
+			<view class='bg left'></view>
+			<view class='default left'>默认</view>
+			<view class='setDefault left' hidden='true'>
+				<image src='../../images/img/pull-down.png' mode="widthFix"></image>
+				设为默认车辆
+			</view>
+			<image class='del right' src='../../images/img/pull-down.png' mode="widthFix"></image>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='top'>
+			<view class='left'>京N12345</view>
+			<view class='left'>JZY268OPZYYZ345682</view>
+		</view>
+		<view class='center'>
+			斯柯达　速派　2018款　1.4TSL　双离合　黑色
+		</view>
+		<view class='footer'>
+			<view class='left'>行驶里程：5000km</view>
+			<view class='left'>购车时间：2018-10</view>
+		</view>
+		<view class='operation'>
+			<view class='bg left' hidden='1'></view>
+			<view class='default left' hidden='1'>默认</view>
+			<view class='setDefault left'>
+				<image src='../../images/img/pull-down.png' mode="widthFix"></image>
+				设为默认车辆
+			</view>
+			<image class='del right' src='../../images/img/pull-down.png' mode="widthFix"></image>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='top'>
+			<view class='left'>京N12345</view>
+			<view class='left'>JZY268OPZYYZ345682</view>
+		</view>
+		<view class='center'>
+			斯柯达　速派　2018款　1.4TSL　双离合　黑色
+		</view>
+		<view class='footer'>
+			<view class='left'>行驶里程：5000km</view>
+			<view class='left'>购车时间：2018-10</view>
+		</view>
+		<view class='operation'>
+			<view class='bg left' hidden='1'></view>
+			<view class='default left' hidden='1'>默认</view>
+			<view class='setDefault left'>
+				<image src='../../images/img/pull-down.png' mode="widthFix"></image>
+				设为默认车辆
+			</view>
+			<image class='del right' src='../../images/img/pull-down.png' mode="widthFix"></image>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='top'>
+			<view class='left'>京N12345</view>
+			<view class='left'>JZY268OPZYYZ345682</view>
+		</view>
+		<view class='center'>
+			斯柯达　速派　2018款　1.4TSL　双离合　黑色
+		</view>
+		<view class='footer'>
+			<view class='left'>行驶里程：5000km</view>
+			<view class='left'>购车时间：2018-10</view>
+		</view>
+		<view class='operation'>
+			<view class='bg left' hidden='1'></view>
+			<view class='default left' hidden='1'>默认</view>
+			<view class='setDefault left'>
+				<image src='../../images/img/pull-down.png' mode="widthFix"></image>
+				设为默认车辆
+			</view>
+			<image class='del right' src='../../images/img/pull-down.png' mode="widthFix"></image>
+		</view>
+	</view>
+	<navigator id='addCar' url='/pages/addCar/addCar'>添加爱车</navigator>
+</view>

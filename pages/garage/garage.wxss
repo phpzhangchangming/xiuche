@@ -1,0 +1,84 @@
+page{
+    background: #F5F5F7;
+}
+.list{
+	background:#fff;
+	border-radius:10rpx;
+	margin-top:20rpx;
+	padding:44rpx 26rpx 58rpx;
+}
+.list:first-child{
+	margin-top:34rpx;
+}
+.list:last-of-type {
+	margin-bottom: 120rpx;
+}
+.list .top{
+	height:44rpx;
+	font-size: 32rpx;
+}
+.list .top .left{
+	margin-right:40rpx;
+}
+.list .center{
+	height:32rpx;
+	font-size:26rpx;
+	margin-top:10rpx;
+}
+.list .footer{
+	height:32rpx;
+	font-size:26rpx;
+	margin-top:18rpx;
+}
+.list .footer .left{
+	margin-right:30rpx;
+}
+.list .operation{
+	margin-top:12rpx;
+	height:10rpx;
+}
+.list .bg{
+	border-top:90rpx solid transparent;
+	border-left:90rpx solid #EC1F1F;
+	position: relative;
+	left:-26rpx;
+	bottom: 22rpx;
+}
+.list .default{
+	font-size:24rpx;
+	transform:rotate(45deg);
+	position: relative;
+	right:108rpx;
+	top:22rpx;
+	color:#fff;
+}
+.list .setDefault{
+	font-size:28rpx;
+	color:#A9A9A9;
+	margin-top:14rpx;
+}
+.list .setDefault image{
+	width:28rpx;
+	height:28rpx;
+	position:relative;
+	top:6rpx;
+}
+.list .del{
+	width:34rpx;
+	height:34rpx;
+	position:relative;
+	top:12rpx;
+}
+#addCar{
+	width:101%;
+	height:100rpx;
+	text-align: center;
+	line-height: 100rpx;
+	margin-left:-4%;
+	background:#EC1F1F;
+	position: fixed;
+	bottom: 0;
+	color:#fff;
+	font-weight: 600;
+	font-size: 36rpx;
+}
