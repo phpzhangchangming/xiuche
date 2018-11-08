@@ -1,0 +1,102 @@
+page{
+	background: #F4F3F8;
+}
+.bg{
+	width:100%;
+	height:200px;
+}
+.bg image{
+	width:100%;
+	height:200px;
+	position: relative;
+}
+#body {
+	position: relative;
+	margin-top:-68rpx;
+}
+.configuration{
+	margin-top:-16rpx;
+	font-size: 28rpx;
+}
+.configuration .navBar{
+	float:left;
+	width:22%;
+	font-size: 30rpx;
+}
+.configuration .navBar view{
+	border-left:2rpx solid #F4F3F8;
+	width:100%;
+	height:108rpx;
+	line-height:108rpx;
+	text-align: center;
+}
+.configuration .navBar .active{
+	border-left:2rpx solid #EC1F1F;
+	background:#fff;
+}
+.configuration .detail{
+	float:right;
+	width:78%;
+	background:#fff;
+}
+.detail .swiper{
+	height:100%;
+}
+.lists .class{
+	height:44rpx;
+	line-height: 42rpx;
+	width:100%;
+	background:#F4F3F8;
+	color:#868686;
+	padding-left:28rpx;
+}
+.lists .name{
+	font-weight: 600;
+	padding:18rpx 24rpx 14rpx;
+}
+.lists .content{
+	height:140rpx;
+}
+.lists .list:last-child .content{
+	height:160rpx;
+}
+.lists .content .left{
+	border:1px solid #E5E5E5;
+	border-radius: 6rpx;
+	width:36%;
+	margin-left:6%;
+	text-align: center;
+}
+.lists .content .choose{
+	border:1px solid #EC1F1F;
+}
+.lists .content .choose .triangle{
+	border-top:26rpx solid transparent;
+	border-right:26rpx solid #EC1F1F;
+	position: relative;
+	top: 2rpx;
+	left:2rpx;
+}
+.lists .content .left .top{
+	border-bottom: 1px solid #E5E5E5;
+	padding: 12rpx 0;
+	color:#868686;
+}
+.lists .content .left .footer{
+	height: 34rpx;
+}
+.lists .content .left .footer view{
+	padding: 12rpx 0;
+	width:50%;
+	float:left;
+	font-weight: 600;
+}
+.lists .content .left .footer view:first-child{
+	color:#868686;
+	text-decoration: line-through;
+	font-size: 26rpx;
+	line-height: 38rpx;
+}
+.lists .content .left .footer view:last-child{
+	color:#EC1F1F;
+}

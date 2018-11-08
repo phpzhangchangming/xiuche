@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "维修 需要确定更换品牌、更换机油有啥不一样",
+	"usingComponents": {
+		"basicCarInfo": "/components/basicCarInfo/basicCarInfo"
+	}
+}

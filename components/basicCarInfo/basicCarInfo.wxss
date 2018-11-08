@@ -1,0 +1,24 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.carMessage{
+	font-size:26rpx;
+	background:#fff;
+	border-radius:10rpx;
+	margin:20rpx 0;
+	padding:16rpx 30rpx 14rpx;
+	box-shadow:0 0 6px #A6A6A6;
+	z-index: 20;
+}
+.carMessage .center,.carMessage .footer,.carMessage .top{
+	height:40rpx;
+}
+.carMessage .top .left{
+	margin-right:40rpx;
+}
+.carMessage .footer .left{
+	margin-right:30rpx;
+}

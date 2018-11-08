@@ -1,0 +1,510 @@
+<view class='bg'>
+	<image src='../../images/img/car.png' mode="widthFix"></image>
+</view>
+<view id='body'>
+	<basicCarInfo></basicCarInfo>
+</view>
+<view class='configuration'>
+	<view class='navBar'>
+		<view class='{{currentTab==0?"active":""}}' data-current="0" bindtap="clickTab">右前</view>
+		<view class='{{currentTab==1?"active":""}}' data-current="1" bindtap="clickTab">左后</view>
+		<view class='{{currentTab==2?"active":""}}' data-current="2" bindtap="clickTab">车顶</view>
+		<view class='{{currentTab==3?"active":""}}' data-current="3" bindtap="clickTab">优惠</view>
+	</view>
+	<scroll-view class='detail' scroll-y scroll-top='0' style='height:{{scrollViewHeight}}px'>
+		<view class='swiper' current="{{currentTab}}" duration="300" bindchange="swiperTab" vertical='true'>
+			<view hidden='{{currentTab==0?false:true}}'>
+				<view class='lists'>
+					<view class='class'>右前右前</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left choose' bindtap='bindPart'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+								<view class='triangle'></view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class='lists'>
+					<view class='class'>车头</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view hidden='{{currentTab==1?false:true}}'>
+				<view class='lists'>
+					<view class='class'>左后</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left choose' bindtap='bindPart'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+								<view class='triangle'></view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class='lists'>
+					<view class='class'>车头</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view hidden='{{currentTab==2?false:true}}'>
+				<view class='lists'>
+					<view class='class'>车顶车顶</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left choose' bindtap='bindPart'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+								<view class='triangle'></view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class='lists'>
+					<view class='class'>车头</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view hidden='{{currentTab==3?false:true}}'>
+				<view class='lists'>
+					<view class='class'>优惠</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left choose' bindtap='bindPart'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+								<view class='triangle'></view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+				<view class='lists'>
+					<view class='class'>车头</view>
+					<view class='list'>
+						<view class='name'>前保险杠</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class='list'>
+						<view class='name'>前车盖1</view>
+						<view class='content'>
+							<view class='left'>
+								<view class='top'>喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+							<view class='left'>
+								<view class='top'>钣金喷漆</view>
+								<view class='footer'>
+									<view>￥500</view>
+									<view>￥340</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

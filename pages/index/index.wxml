@@ -32,14 +32,14 @@
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>保养</view>
         </navigator>
-        <view class='fun'>
+        <navigator class='fun' url='/pages/serviceACar/serviceACar'>
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>维修</view>
-        </view>
-        <view class='fun'>
+        </navigator>
+        <navigator class='fun' url='/pages/serviceACarColor/serviceACarColor'>
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>钣喷</view>
-        </view>
+        </navigator>
         <view class='fun'>
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>洗护</view>

@@ -1,6 +1,6 @@
 {
-	"navigationBarTitleText": "保养",
-	"usingComponents": {
+	"navigationBarTitleText": "钣喷",
+	"usingComponents":{
 		"basicCarInfo": "/components/basicCarInfo/basicCarInfo"
 	}
 }
