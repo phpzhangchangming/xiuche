@@ -1,0 +1,9 @@
+<view class='shopping'>
+	<image class='shoppingImg' src='../../images/img/4545_03.png' mode="widthFix"></image>
+	<view class='allMoney'>￥1613</view>
+	<view class='center'>
+		<view class='oldAllMoney'>￥2106</view>
+		<view class='saveMoney'>省493</view>
+	</view>
+	<button bindtap='bind4S'>选择4S店</button>
+</view>

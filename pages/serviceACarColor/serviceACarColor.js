@@ -7,7 +7,7 @@ Page({
 	},
 	onLoad: function (options) {
 		this.setData({
-			scrollViewHeight: App.globalData.height - 200 - 75
+			scrollViewHeight: App.globalData.height - 300
 		});
 	},
 	//点击切换

@@ -1,6 +1,6 @@
 {
-	"navigationBarTitleText": "钣喷",
-	"usingComponents":{
+	"navigationBarTitleText": "更换电瓶",
+	"usingComponents": {
 		"basicCarInfo": "/components/basicCarInfo/basicCarInfo",
 		"shopping": "/components/shopping/shopping"
 	}

@@ -1,6 +1,6 @@
 {
-	"navigationBarTitleText": "钣喷",
-	"usingComponents":{
+	"navigationBarTitleText": "洗护",
+	"usingComponents": {
 		"basicCarInfo": "/components/basicCarInfo/basicCarInfo",
 		"shopping": "/components/shopping/shopping"
 	}

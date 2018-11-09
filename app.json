@@ -1,10 +1,15 @@
 {
   "pages":[
-	"pages/upkeep/upkeep",
-	"pages/serviceACarColor/serviceACarColor",
-	"pages/demo/demo",
-	"pages/serviceACar/serviceACar",
 	"pages/index/index",
+	"pages/emergencyRelief/emergencyRelief",
+	"pages/map/map",
+	"pages/changeBattery/changeBattery",
+	"pages/freeCarWash/freeCarWash",
+	"pages/washProtect/washProtect",
+	"pages/serviceACarColor/serviceACarColor",
+	"pages/serviceACar/serviceACar",
+	"pages/upkeep/upkeep",
+	"pages/demo/demo",
 	"pages/garage/garage",
     "pages/addCar/addCar",
     "pages/selectColor/selectColor",
@@ -13,9 +18,10 @@
     "pages/login/login",
     "pages/user/user",
     "pages/repair/repair",
-    "pages/stores/stores",
+    "pages/4s/4s",
 
-	"components/basicCarInfo/basicCarInfo"
+	"components/basicCarInfo/basicCarInfo",
+	"components/shopping/shopping"
   ],
   "window":{
     "backgroundTextStyle":"light",

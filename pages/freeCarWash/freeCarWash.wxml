@@ -1,0 +1,50 @@
+<view id='body'>
+	<basicCarInfo></basicCarInfo>
+	<view id='content'>
+		<view class='noticeTitle'>免费洗车说明</view>
+		<view class='notice'>
+			免费洗车是VIP客户享受的优惠福利，若想享受该优惠，需成为《骏宝修车》的会员，成为会员的方式如下：
+		</view>
+		<view class='table'>
+			<view class='tr'>
+				<view class='th'>客户等级</view>
+				<view class='th'>预存金额</view>
+				<view class='th'>充值总额</view>
+				<view class='th'>服务期限</view>
+				<view class='th'>折扣</view>
+				<view class='th'>服务费</view>
+			</view>
+			<view class='tr'>
+				<view class='td'>vip1</view>
+				<view class='td'>500</view>
+				<view class='td'>空格占位</view>
+				<view class='td'>3</view>
+				<view class='td'>9</view>
+				<view class='td'>10%</view>
+			</view>
+			<view class='tr'>
+				<view class='td'>vip1</view>
+				<view class='td'>500</view>
+				<view class='td'>空格占位</view>
+				<view class='td'>3</view>
+				<view class='td'>9</view>
+				<view class='td'>10%</view>
+			</view>
+			<view class='tr'>
+				<view class='td'>vip1</view>
+				<view class='td'>500</view>
+				<view class='td'>空格占位</view>
+				<view class='td'>3</view>
+				<view class='td'>9</view>
+				<view class='td'>10%</view>
+			</view>
+		</view>
+		<view class='notice'>
+			预存金额与充值总额只要达到了客户VIP等级，就会享受对应的优惠服务，在服务有效期内的均可享受维修项目以及服务费的折扣和免费洗车等服务。
+		</view>
+	</view>
+</view>
+<button bindtap='bindCloose4S'>选择4S店洗车</button>
+<view class='notice'>
+	需要注意的是，客户不是会员的情况下按钮是不可点击状态，置灰状态
+</view>

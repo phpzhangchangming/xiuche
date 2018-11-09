@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "免费洗车",
+	"usingComponents":{
+		"basicCarInfo": "/components/basicCarInfo/basicCarInfo"
+	}
+}

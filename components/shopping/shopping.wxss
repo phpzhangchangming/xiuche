@@ -1,0 +1,50 @@
+.shopping {
+	position: fixed;
+	bottom: 0;
+	height:108rpx;
+	background:#fff;
+	width:100%;
+	box-shadow:0 0 8rpx#A6A6A6;
+}
+.shopping .shoppingImg{
+	float:left;
+	width:100rpx;
+	height:100rpx;
+	margin:-22rpx 8rpx 0 38rpx;
+}
+.shopping .allMoney{
+	float:left;
+	color:#EC1F1F;
+	font-size:32rpx;
+	font-weight: 600;
+	letter-spacing:-2rpx;
+	margin-top:28rpx;
+	border-right:1px solid #E4E4E4;
+	padding-right:18rpx;
+	height:46rpx;
+}
+.shopping .center{
+	float:left;
+	margin:16rpx 18rpx;
+	font-weight: 600;
+	font-size: 26rpx;
+}
+.shopping .center .oldAllMoney{
+	text-decoration:line-through; 	
+	color:#C9C9C9;
+}
+.shopping .center .saveMoney{
+	color:#6B6B6B;
+}
+.shopping button{
+	width: 35%;
+	float: right;
+	height: 108rpx;
+	line-height: 108rpx;
+	font-weight: 600;
+	font-size: 34rpx;
+	color:#fff;
+	letter-spacing: 4rpx;
+	background: #EC1F1F;
+	border-radius:0;
+}

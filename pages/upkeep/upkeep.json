@@ -1,6 +1,7 @@
 {
 	"navigationBarTitleText": "保养",
 	"usingComponents": {
-		"basicCarInfo": "/components/basicCarInfo/basicCarInfo"
+		"basicCarInfo": "/components/basicCarInfo/basicCarInfo",
+		"shopping": "/components/shopping/shopping"
 	}
 }

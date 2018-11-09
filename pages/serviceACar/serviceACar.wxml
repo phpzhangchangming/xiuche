@@ -67,6 +67,7 @@
 		<button bindtap='bind4S'>选择4S店</button>
 	</view>
 </view>
+<shopping></shopping>
 <view id='rightShow' style="height:{{winHeight}}px;right:{{showRightWidth}}%">
     <view class='list'>
         <view class='headline'>不确定因素，</view>

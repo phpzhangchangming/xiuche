@@ -1,0 +1,16 @@
+<map
+        id="myMap"
+        style="width: 100%; height: {{mapHeight}}px;"
+        show-location
+></map>
+
+<!-- <map
+        wx:if="{{showMap}}"
+        id="myMap"
+        style="width: 100%; height: {{mapHeight}}px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        scale="{{scale}}"
+        markers="{{markers}}"
+        show-location
+></map> -->

@@ -1,0 +1,104 @@
+<view id='overlay' bindtap='showOld' hidden='{{isShowOverlay}}'></view>
+<view id='body'>
+	<basicCarInfo></basicCarInfo>
+	<view class='box'>
+		<view class='type'>选择救援类型</view>
+		<view class='detail' bindtap='bindChangeType'>
+			<view class='name left'>搭电</view>
+			<view class='more right'>>></view>
+			<view class='red right'>￥149</view>
+			<view class='through right'>￥438</view>
+		</view>
+	</view>
+	<view class='box'>
+		<view class='type'>选择救援类型</view>
+		<navigator class='detail' bindtap='bindChangeMap' url='/pages/map/map'>
+			<view class='name left'>救援地点：</view>
+			<view class='addresses left'>定福庄北里一号院（默认自己所在地）</view>
+		</navigator>
+	</view>
+	<view class='box'>
+		<view class='top'>
+			<view class='ok right'>￥342</view>
+			<view class='pass right'>￥438</view>
+			<view class='name right'>服务费：</view>
+		</view>
+		<view class='footer' bindtap='bindShowMoreVip'>
+			<view class='left'>VIP4</view>
+			<button class='right'>更多优惠</button>
+		</view>
+	</view>
+	<view class='notice'>紧急救援预约时间只能是在两天内预约</view>
+</view>
+<shopping></shopping>
+<view class='changeType' style='height:{{changeTypeHeight}}rpx'>
+	<view class='title'>更换救援类型</view>
+	<view class='but'>搭电</view>
+	<view class='but cloose'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/不含轮胎</view>
+	<view class='but'>换胎/四个</view>
+	<view class='but'>拖车</view>
+	<view class='both'></view>
+</view>
+<view id='moreVip' hidden='{{isShowMoreVip}}'>
+	<view id='mName'>更多优惠方式</view>
+	<view class='table'>
+		<view class='tr'>
+			<view class='th'>等级</view>
+			<view class='th'>预存金额</view>
+			<view class='th'>总额</view>
+			<view class='th'>服务期限</view>
+			<view class='th'>折扣</view>
+			<view class='th'>服务费</view>
+		</view>
+		<view class='tr'>
+			<view class='td'>vip1</view>
+			<view class='td'>500</view>
+			<view class='td'>空格占位</view>
+			<view class='td'>3</view>
+			<view class='td'>9</view>
+			<view class='td'>10%</view>
+		</view>
+		<view class='tr'>
+			<view class='td'>vip1</view>
+			<view class='td'>500</view>
+			<view class='td'>空格占位</view>
+			<view class='td'>3</view>
+			<view class='td'>9</view>
+			<view class='td'>10%</view>
+		</view>
+		<view class='tr'>
+			<view class='td'>vip1</view>
+			<view class='td'>500</view>
+			<view class='td'>空格占位</view>
+			<view class='td'>3</view>
+			<view class='td'>9</view>
+			<view class='td'>10%</view>
+		</view>
+		<view class='tr'>
+			<view class='td'>vip1</view>
+			<view class='td'>500</view>
+			<view class='td'>空格占位</view>
+			<view class='td'>3</view>
+			<view class='td'>9</view>
+			<view class='td'>10%</view>
+		</view>
+		<view class='tr'>
+			<view class='td'>vip1</view>
+			<view class='td'>500</view>
+			<view class='td'>空格占位</view>
+			<view class='td'>3</view>
+			<view class='td'>9</view>
+			<view class='td'>10%</view>
+		</view>
+	</view>
+	<view class='mNotice'>
+自动计算达到对应VIP等级，直接使用对应的VIP等级的优惠，在服务有效期结束后，不享受优惠。在预存金额或者充值金额达到的最大的VIP等级中，客户在服务期限内只要达到了更高的VIP等级，则开始按照新的VIP等级进行计算。在服务期限内都没有达到预存和充值的，VIP等级消失。累计计算金额的计算周期为半年。（详细信息查看个人中心）
+	</view>
+	<view class='close' bindtap='bindClose'>关闭</view>
+</view>
