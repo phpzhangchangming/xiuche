@@ -1,6 +1,11 @@
 {
   "pages":[
-	"pages/index/index",
+    "pages/index/index",
+    "pages/4sDetail/4sDetail",
+    "pages/4s/4s",
+    "pages/manual/manual",
+    "pages/demo/demo",
+    "pages/decorate/decorate",
 	"pages/emergencyRelief/emergencyRelief",
 	"pages/map/map",
 	"pages/changeBattery/changeBattery",
@@ -9,16 +14,14 @@
 	"pages/serviceACarColor/serviceACarColor",
 	"pages/serviceACar/serviceACar",
 	"pages/upkeep/upkeep",
-	"pages/demo/demo",
 	"pages/garage/garage",
     "pages/addCar/addCar",
     "pages/selectColor/selectColor",
-    "pages/selectYear/selectYear",	
+    "pages/selectYear/selectYear",
     "pages/switchCar/switchCar",
     "pages/login/login",
     "pages/user/user",
     "pages/repair/repair",
-    "pages/4s/4s",
 
 	"components/basicCarInfo/basicCarInfo",
 	"components/shopping/shopping"
@@ -39,7 +42,7 @@
                 "selectedIconPath": "/images/indexSelected.png"
             },
             {
-                "pagePath": "pages/stores/stores",
+                "pagePath": "pages/4s/4s",
                 "text": "4s店",
                 "iconPath": "/images/stores.png",
                 "selectedIconPath": "/images/storesSelected.png"

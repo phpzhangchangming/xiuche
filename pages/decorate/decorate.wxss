@@ -1,0 +1,147 @@
+page{
+    background: #F5F5F7;
+}
+#body{
+	font-size:26rpx;
+}
+.nav{
+	background:#fff;
+	height:60rpx;
+	padding-top:20rpx;
+}
+.nav view{
+	width:100%;
+	font-size: 28rpx;
+	text-align: center;
+	padding-bottom:14rpx;
+}
+.nav view.choose{
+	color:#EC1F1F;
+	border-bottom: 2rpx solid #EC1F1F;
+}
+.lists{
+	background: #fff;
+}
+.list{
+	height:80rpx;
+	padding:22rpx 1%;
+	border-bottom: 2rpx solid #F2F2F2;
+}
+.image{
+	width:42rpx;
+	height:42rpx;
+	float: left;
+	position: relative;
+	top:26rpx;
+	margin-left:12rpx;
+	border-radius:50rpx;
+	background:#E6E6E6;
+}
+.v{
+	width:20rpx;
+	height:10rpx;
+	margin-top:10rpx;
+	margin-left:8rpx;
+	border-bottom:4rpx solid #fff;
+	border-left:4rpx solid #fff;
+	transform:rotate(-46deg);
+}
+.imageRed{
+	background: #D81E06;
+}
+.list .left{
+	width:46%;
+	height:86rpx;
+	overflow:hidden;
+	padding-left:10rpx;
+}
+.list .left .parts{
+	float: left;
+	margin-right:12rpx;
+	font-weight: 600;
+}
+.list .left .changeParts{
+	color:#EC1F1F;
+}
+.list .left .explain{
+	color:#A6A6A6;
+	margin-top:16rpx;
+	font-size: 24rpx;
+	height:28rpx;
+	overflow: hidden
+}
+.list image{
+    width:80rpx;
+    height:80rpx;
+}
+.list .right {
+	width:27%;
+	margin-right:12rpx;
+	position: relative;
+	top:16rpx;
+}
+.list .right .old{
+	float:right;
+	color:#A1A1A1;
+	text-align: right;
+	position: relative;
+	top:2rpx;
+	text-decoration:line-through;
+ }
+.list .right .new{
+	float: right;
+	color:#FA5A4B;
+	font-size:32rpx;
+	font-weight:600;
+	margin-left:16rpx;
+}
+.serviceMoney{
+	padding-bottom: 0;
+}
+.serviceMoney .right{
+	width:16%;
+}
+.serviceMoney .right:nth-child(2){
+	color:#A1A1A1;
+	text-decoration:line-through;
+	width:12%;
+} 
+.serviceMoney .right:first-child{
+	font-size: 34rpx;
+	color:#EC1F1F;
+	font-weight: 600;
+	margin-top: -6rpx;
+}
+.serviceVip{
+	height:100rpx;
+}
+.serviceVip .left{
+	font-size: 28rpx;
+	line-height:68rpx;
+	margin-left:20rpx;
+}
+.serviceVip .button{
+	width:180rpx;
+	height:60rpx;
+	line-height: 60rpx;
+	float: right;
+	text-align: center;
+	font-size: 28rpx;
+	background:#EC1F1F;
+	color: #fff;
+	border-radius:50rpx;
+	margin-right: 30rpx;
+	font-weight: 600;
+}
+
+#rightShow{
+    width:66%;
+    background:#fff;
+    transition: right 0.5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top:0;
+    z-index: 11;
+}

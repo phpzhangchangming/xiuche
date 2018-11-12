@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "精品加装",
+    "usingComponents": {
+        "basicCarInfo": "/components/basicCarInfo/basicCarInfo",
+        "shopping": "/components/shopping/shopping"
+    }
+}

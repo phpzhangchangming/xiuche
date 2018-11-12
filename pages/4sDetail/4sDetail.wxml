@@ -1,0 +1,88 @@
+<view id='head'>
+    <view class='storefront'>
+        <image src='../../images/img/4545_03.png' />
+        <view>汕尾中益丰田4s店</view>
+    </view>
+</view>
+<view id='body'>
+    <view class='sa'>
+        <view class='saPN'>
+            <view class='prev' bindtap='bindPrev' data-index='sa'></view>
+            <view class='next' bindtap='bindNext' data-index='sa'></view>
+        </view>
+        <view class='top'>SA列表</view>
+        <swiper class='lists' current='{{saCurrent}}' bindchange="swiperChange" data-index='sa'>
+            <block wx:for="{{saList}}">
+                <swiper-item class="swiper-item">
+                    <image src='../../images/img/4545_03.png' />
+                    <view class='content'>
+                        <view class='name'>{{index}}张长明1</view>
+                        <view class='order'>订单量：568</view>
+                        <view class='grade'>9.6分</view>
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class='plant'>
+        <view class='plantPN'>
+            <view class='prev' bindtap='bindPrev' data-index='plant'></view>
+            <view class='next' bindtap='bindNext' data-index='plant'></view>
+        </view>
+        <view class='top'>车间列表</view>
+        <swiper class='lists' current='{{plantCurrent}}' bindchange="swiperChange" data-index='plant'>
+            <block wx:for="{{plantList}}">
+                <swiper-item class="swiper-item">
+                    <image src='../../images/img/4545_03.png' />
+                    <view class='content'>
+                        <view class='name'>{{index}}张长明</view>
+                        <view class='order'>订单量：568</view>
+                        <view class='grade'>9.6分</view>
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class='comment'>
+        <view class='top'>车主评价</view>
+        <view class='commentList'>
+            <view class='userinfo'>
+                <image src='../../images/img/4545_03.png' />
+                <view class='phone'>180****0978</view>
+                <view class='time'>2018-10-26 14:32</view>
+            </view>
+            <view class='carTyep'>
+                <view class='left'>车型：大众 朗逸</view>
+                <view class='left'>花费：￥571<view class='right'>（省￥187）</view></view>
+            </view>
+            <view class='text'>休息环境优雅舒服，服务热情周到细致，技术水平精湛，态度热情饱满，很喜欢，下次还会再来。</view>
+            <view class='imgList'>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <view class='both'></view>
+            </view>
+        </view>
+        <view class='commentList'>
+            <view class='userinfo'>
+                <image src='../../images/img/4545_03.png' />
+                <view class='phone'>180****0978</view>
+                <view class='time'>2018-10-26 14:32</view>
+            </view>
+            <view class='carTyep'>
+                <view class='left'>车型：大众 朗逸</view>
+                <view class='left'>花费：￥571<view class='right'>（省￥187）</view></view>
+            </view>
+            <view class='text'>休息环境优雅舒服，服务热情周到细致，技术水平精湛，态度热情饱满，很喜欢，下次还会再来。</view>
+            <view class='imgList'>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <image src='../../images/img/u976.png' mode="widthFix"/>
+                <view class='both'></view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,2 +1,25 @@
-<!--pages/4s/4s.wxml-->
-<text>pages/4s/4s.wxml</text>
+<view id='body'>
+    <view class='location'>
+        <view>定位地点：</view>
+        <view class='site'>定福庄北里一号院</view>
+    </view>
+    <view class='hr'></view>
+    <view  class='views' >
+        <view class='view' wx:for="{{list}}" bindtap='bindShowDelete' data-id='{{index}}'>
+            <view class='left'>
+                <image src='../../images/img/u976.png' mode="widthFix"></image>
+            </view>
+            <view class='right'>
+                <view class='name'>{{item}}北京jeep吉普4S店</view>
+                <view class='center'>
+                    <view class='orderNum'>订单量：568</view>
+                    <view class='evaluate'>9.6分</view>
+                </view>
+                <view class='specificLocation'>
+                    18.3km 北京市来广营西路55号
+                    <image catchtap='bindMap' src='../../images/img/nav.png' mode="widthFix" />
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

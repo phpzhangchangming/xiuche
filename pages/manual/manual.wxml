@@ -1,0 +1,412 @@
+<view class='body'>
+    <view class='nav'>
+        <view class='{{active==0?"active":""}}' data-index='0' bindtap='bindChange'>保养</view>
+        <view class='{{active==1?"active":""}}' data-index='1' bindtap='bindChange'>养护</view>
+        <view class='{{active==2?"active":""}}' data-index='2' bindtap='bindChange'>维修</view>
+    </view>
+    <view class='details'>
+        <view class='by' hidden='{{active==0?"":"active"}}'>
+            <view class='obj'>
+                <view class='top'>保养项目</view>
+                <view>机油</view>
+                <view>机油滤清器</view>
+                <view>空调滤清器</view>
+                <view>火花塞</view>
+                <view>变速箱油</view>
+                <view>刹车油</view>
+                <view>变速箱滤清器</view>
+                <view>保养项目</view>
+                <view>机油</view>
+                <view>机油滤清器</view>
+                <view>空调滤清器</view>
+                <view>火花塞</view>
+                <view>变速箱油</view>
+                <view>刹车油</view>
+                <view>变速箱滤清器</view>
+                <view>保养项目</view>
+                <view>机油</view>
+                <view>机油滤清器</view>
+            </view>
+            <view class='scroll_box'>
+                <scroll-view class='detailTop' scroll-x>
+                    <view>
+                        <view class='distance'>
+                            1000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            2000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            3000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            4000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            5000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            6000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            7000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            8000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            9000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            10000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            11000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            12000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            13000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            14000
+                            <view>KM</view>
+                        </view>
+                        <view class='distance'>
+                            15000
+                            <view>KM</view>
+                        </view>
+                    </view>
+                    <view class='lists'>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                        <view class='list'>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'><view></view></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                            <view class='status'></view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+        <view class='yh' hidden='{{active==1?"":"active"}}'>
+            222
+        </view>
+        <view class='wx' hidden='{{active==2?"":"active"}}'>
+            333
+        </view>
+    </view>
+</view>

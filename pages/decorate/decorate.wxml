@@ -1,0 +1,77 @@
+<view id='overlay' bindtap='showOld' hidden='{{isShowOverlay}}'></view>
+<view id='body'>
+	<basicCarInfo></basicCarInfo>
+	<view class='nav'>
+		<view class='left choose'>精品加装选则</view>
+	</view>
+	<scroll-view class='lists' scroll-y scroll-top='0' style='height:{{scrollViewHeight}}px'>
+		<view hidden='{{isShowChoose}}'>
+			<view class='list' wx:for="{{dataList}}">
+				<view class='image {{item.imageRed}}' bindtap='bindImageRed' data-index="{{index}}">
+					<view class='v'></view>
+				</view>
+				<view class='left'>
+					<view class='parts'>机111油4L</view>
+					<view class='changeParts' bindtap='bindChangePart'>更换机油></view>
+					<view class='explain'>马勒</view>
+				</view>
+                <image src='../../images/img/4545_03.png' mode="widthFix"></image>
+				<view class='right'>
+					<view class='new'>￥342</view>
+					<view class='old'>￥438</view>
+				</view>
+			</view>
+			<view class='list serviceMoney'>
+				<view class='right'>￥342</view>
+				<view class='right'>￥438</view>
+				<view class='right'>服务费：</view>
+			</view>
+			<view class='list serviceVip'>
+				<view class='left'>VIP4</view>
+				<view class='button' bindtap='bindMoreDiscounts'>更多优惠</view>
+			</view>
+		</view>
+		<view hidden='{{!isShowChoose}}'>
+			<view class='list' wx:for="{{dataList}}">
+				<view class='image {{item.imageRed}}' bindtap='bindImageRed' data-index="{{index}}">
+					<view class='v'></view>
+				</view>
+				<view class='left'>
+					<view class='parts'>机222油4L</view>
+					<view class='changeParts' bindtap='bindChangePart'>更换机油></view>
+					<view class='explain'>原厂大众5W-40 SM级半合成4L*1 SM级半合成4L</view>
+				</view>
+				<view class='right'>
+					<view class='new'>￥342</view>
+					<view class='old'>￥438</view>
+				</view>
+			</view>
+			<view class='list serviceMoney'>
+				<view class='right'>￥342</view>
+				<view class='right'>￥438</view>
+				<view class='right'>服务费：</view>
+			</view>
+			<view class='list serviceVip'>
+				<view class='left'>VIP4</view>
+				<view class='button' bindtap='bindMoreDiscounts'>更多优惠</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>
+<shopping></shopping>
+<view id='rightShow' style="height:{{winHeight}}px;right:{{showRightWidth}}%">
+    <view class='list'>
+        <view class='headline'>不确定因素，</view>
+        <view class='head' bindtap='selectCar'>还有下部导航</view>
+        <view class='head' bindtap='selectCar'>，后边再说。</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+    </view>
+    <view class='list'>
+        <view class='headline'>国产奥迪</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+        <view class='head' bindtap='selectCar'>A4L</view>
+    </view>
+</view>

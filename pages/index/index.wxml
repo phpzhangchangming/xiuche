@@ -56,12 +56,12 @@
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>紧急救援</view>
         </navigator>
-        <navigator class='fun' url="/pages/freeCarWash/freeCarWash">
+        <navigator class='fun' url="/pages/decorate/decorate">
             <image src="../../images/img/4545_03.png" mode="widthFix"></image>
             <view>精品加装</view>
         </navigator>
     </view>
-    <view class="manual">
-            <image src="../../images/img/true_03.png" mode="widthFix"></image>
-    </view>
 </view>
+<navigator class="manual" url='/pages/manual/manual'>
+    <image src="../../images/img/true_03.png" mode="widthFix"></image>
+</navigator>

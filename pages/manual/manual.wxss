@@ -1,0 +1,78 @@
+.body{
+    font-size: 30rpx;
+}
+.nav{
+    width:100%;
+    position: fixed;
+    top:0;
+    background: #fff;
+    height: 56rpx;
+}
+.nav view{
+    width:33.3%;
+    float:left;
+    color: #9D9D9D;
+    text-align: center;
+    border-bottom: 4rpx solid #fff;
+    padding-bottom: 12rpx;
+}
+.nav .active{
+    color: #FA5F50;
+    border-bottom: 4rpx solid #FA5F50;
+}
+.body .details{
+    margin-top: 66px;
+}
+.by .obj {
+    width:31%;
+    float: left;
+    border-right: 2rpx solid #F5F5F5;
+}
+.by .obj view{
+    height:42rpx;
+    padding:16rpx 0;
+    text-align: center;
+    color: #808080;
+    border-bottom:2rpx solid #F5F5F5;
+}
+.by .obj .top{
+    position: fixed;
+    top:56rpx;
+    background:#fff;
+    width:31%;
+    height:42rpx;
+    border-bottom:2rpx solid #F5F5F5;
+    padding:16rpx 0;
+}
+.by .scroll_box{
+    float: right;
+    position: fixed;
+    top:56rpx;
+    left:31%;
+    width:60%;
+    white-space: nowrap;
+}
+.by .detailTop{
+    width:auto;
+    overflow:hidden;
+}
+.by .detailTop .distance,
+.by .detailTop .status{
+    font-size: 28rpx;
+    width:100rpx;
+    height:66rpx;
+    line-height: 30rpx;
+    display: inline-block;
+    border-bottom:1px solid #F5F5F5;
+    padding:4rpx 0;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align: center;
+}
+.by .detailTop .status view{
+    width:50rpx;
+    height:50rpx;
+    background:#ccc;
+    border-radius:50rpx;
+    margin:6rpx auto 0;
+}

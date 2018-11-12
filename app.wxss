@@ -5,7 +5,7 @@
     clear: both;
 }
 .hr{
-    border-top:2px solid #F4F4F4;
+    border-top:2rpx solid #F4F4F4;
     width:120%;
     margin-left:-10%;
 }
