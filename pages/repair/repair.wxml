@@ -11,7 +11,7 @@
                 <view class='left'>北京jeep吉普4S店11></view>
                 <view class='right'>已完成</view>
             </view>
-            <view class='center'>
+            <navigator class='center' url='/pages/repairOrder/repairOrder'>
                 <view class='remind'>已经开工的订单不能取消</view>
                 <view class='name'>
                     <view class='left'>保养订单</view>
@@ -21,7 +21,7 @@
                     <image src='../../images/img/time.png' mode="widthFix"></image>
                     2018-10-23(周二) 8:30
                 </view>
-            </view>
+            </navigator>
             <view class='footer'>
                 <view class='right goPlay'>去支付</view>
                 <view class='right'>删除订单</view>

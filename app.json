@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/repairOrder/repairOrder",
     "pages/index/index",
     "pages/4sDetail/4sDetail",
     "pages/4s/4s",

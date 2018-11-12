@@ -1,7 +1,7 @@
 <view class="tapNav">
   <view class="{{tabArr.tabCurrentIndex==0?'active':''}}" data-index="0" bindtap="veHandle">分页标签1</view>
-  <view class="{{tabArr.tabCurrentIndex==1?'active':''}}"  data-index="1" bindtap="veHandle">分页标签2</view>
-  <view class="{{tabArr.tabCurrentIndex==2?'active':''}}"  data-index="2" bindtap="veHandle">分页标签3</view>
+  <view class="{{tabArr.tabCurrentIndex==1?'active':''}}" data-index="1" bindtap="veHandle">分页标签2</view>
+  <view class="{{tabArr.tabCurrentIndex==2?'active':''}}" data-index="2" bindtap="veHandle">分页标签3</view>
 </view>
 <swiper id="swiper" indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}" bindchange="swiperChange">

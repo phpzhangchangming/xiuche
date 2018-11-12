@@ -1,0 +1,82 @@
+<view id='head'>
+    <view class='storefront'>
+        保养订单
+    </view>
+</view>
+<view id='body'>
+    <view class='box'>
+        <view class='name'>项目内容</view>
+        <block>
+            <view class='list'>
+                <view class='left'>换轮胎/4个轮胎</view>
+                <view class='right'>￥149</view>
+            </view>
+            <view class='trademark'>对应品牌</view>
+        </block>
+        <view class='money'>
+            <view class='left'>
+                <view>工时费：￥149</view>
+                <view>服务费：￥149</view>
+            </view>
+            <view class='right'>
+                <view>订单金额</view>
+                <view>￥477</view>
+            </view>
+            <view class='both'></view>
+        </view>
+    </view>
+    <view class='box'>
+        <view class='name'>
+            增项内容
+            <view class='no'>未确认</view>
+        </view>
+        <block>
+            <view class='list'>
+                <view class='left'>换轮胎/4个轮胎</view>
+                <view class='right'>￥149</view>
+            </view>
+            <view class='trademark'>对应品牌</view>
+        </block>
+        <block>
+            <view class='list'>
+                <view class='left'>换轮胎/4个轮胎</view>
+                <view class='right'>￥149</view>
+            </view>
+            <view class='trademark'>对应品牌</view>
+        </block>
+        <view class='money'>
+            <view class='left'>
+                <view>工时费：￥149</view>
+                <view>服务费：￥149</view>
+            </view>
+            <view class='right'>
+                <view>订单金额</view>
+                <view>￥477</view>
+            </view>
+            <view class='both'></view>
+        </view>
+    </view>
+    <view class='box order'>
+        <view class='name'>订单信息</view>
+        <view class='list'>
+            <view class='left'>订单编号</view>
+            <view class='right'>201810290321520</view>
+        </view>
+        <view class='list'>
+            <view class='left'>订单编号</view>
+            <view class='right'>201810290321520</view>
+        </view>
+        <view class='list'>
+            <view class='left'>订单编号</view>
+            <view class='right'>201810290321520</view>
+        </view>
+        <view class='list'>
+            <view class='left'>订单编号</view>
+            <view class='right'>201810290321520</view>
+        </view>
+    </view>
+</view>
+<view id='footer'>
+    <view class='qx'>取消增项</view>
+    <view class='ok'>确认增项</view>
+</view>
