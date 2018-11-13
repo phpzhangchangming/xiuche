@@ -1,49 +1,54 @@
 <view id='body'>
     <view class='userInfo'>
-        <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+        <image class='left' src='../../images/img/time.png' mode="widthFix" />
         <view class='left'>
             <view class='username'>张长明</view>
             <view class='car'>默认车辆信息</view>
         </view>
     </view>
     <view class='vlist'>
-        <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+        <navigator class="list" url='/pages/garage/garage'>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>我的车库</view>
             <view class='right'>></view>
+        </navigator>
+        <view class='list'>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
+            <view class='left'>会员等级</view>
+            <view class='right hint'>VIP2</view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>服务期限</view>
             <view class='right hint'>2019-08-21</view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>充值最大额度</view>
-            <view class='right hint'></view>
+            <view class='right hint'>￥1536.00</view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>累计充值总额</view>
-            <view class='right'>></view>
+            <view class='right hint'>￥1536.00</view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>账户余额</view>
-            <view class='right'>></view>
+            <view class='right hint'>￥1536.00</view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>充值</view>
             <view class='right'>></view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix"/>
             <view class='left'>提现至微信钱包</view>
             <view class='right'>></view>
         </view>
         <view class='list'>
-            <image class='left' src='../../images/img/time.png' mode="widthFix"></image>
+            <image class='left' src='../../images/img/time.png' mode="widthFix" />
             <view class='left'>优惠指南</view>
             <view class='right'>></view>
         </view>
